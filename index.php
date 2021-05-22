@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/App/config.php';
+require __DIR__ . '/App/config.php'
 
 $route  = explode('?', $_SERVER['REQUEST_URI']);
 $route  = array_values(array_filter(explode('/', $route[0])));
